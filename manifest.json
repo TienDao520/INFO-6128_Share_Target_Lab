@@ -1,7 +1,7 @@
 {
-  "name": "my-new-pwa",
-  "short_name": "my-new-pwa",
-  "start_url": "https://evanburg.github.io/pwa-boilerplate/",
+  "name": "Share Target Lab",
+  "short_name": "Share Target Lab",
+  "start_url": "https://tiendao520.github.io/INFO-6128_Share_Target_Lab/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
@@ -18,7 +18,7 @@
       "sizes": "96x96"
     },
     {
-      "src":"assets/images/icon.png",
+      "src": "assets/images/icon.png",
       "sizes": "144x144",
       "type": "image/png"
     },
@@ -38,5 +38,14 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
 }
